@@ -1,0 +1,16 @@
+D:\dev\SqlFormatter\SqlFormatter\bin\Debug\SqlFormatter.exe.config
+D:\dev\SqlFormatter\SqlFormatter\bin\Debug\SqlFormatter.exe
+D:\dev\SqlFormatter\SqlFormatter\bin\Debug\SqlFormatter.pdb
+D:\dev\SqlFormatter\SqlFormatter\obj\Debug\SqlFormatter.csprojResolveAssemblyReference.cache
+D:\dev\SqlFormatter\SqlFormatter\obj\Debug\MainWindow.g.cs
+D:\dev\SqlFormatter\SqlFormatter\obj\Debug\App.g.cs
+D:\dev\SqlFormatter\SqlFormatter\obj\Debug\SqlFormatter_MarkupCompile.cache
+D:\dev\SqlFormatter\SqlFormatter\obj\Debug\SqlFormatter_MarkupCompile.lref
+D:\dev\SqlFormatter\SqlFormatter\obj\Debug\MainWindow.baml
+D:\dev\SqlFormatter\SqlFormatter\obj\Debug\SqlFormatter.g.resources
+D:\dev\SqlFormatter\SqlFormatter\obj\Debug\SqlFormatter.Properties.Resources.resources
+D:\dev\SqlFormatter\SqlFormatter\obj\Debug\SqlFormatter.csproj.GenerateResource.Cache
+D:\dev\SqlFormatter\SqlFormatter\obj\Debug\SqlFormatter.exe
+D:\dev\SqlFormatter\SqlFormatter\obj\Debug\SqlFormatter.pdb
+D:\dev\SqlFormatter\SqlFormatter\bin\Debug\Newtonsoft.Json.dll
+D:\dev\SqlFormatter\SqlFormatter\bin\Debug\Newtonsoft.Json.xml

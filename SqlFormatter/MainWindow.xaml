@@ -1,0 +1,30 @@
+﻿<Window x:Class="SqlFormatter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SqlFormatter"
+        mc:Ignorable="d"
+        Title="SQL Formatter" Height="350" Width="525" WindowState="Maximized">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="25" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Column="0" Grid.Row="0">
+            <Button Name="formatSqlButton" Content="Go" Height="30" Width="120" HorizontalAlignment="Left" Margin="10,10,0,0" Click="formatSqlButton_Click" />
+        </StackPanel>
+        <Border Grid.Column="0" Grid.Row="1" BorderBrush="Gainsboro" BorderThickness="0,0,5,5">
+            <Border BorderBrush="Gray" BorderThickness="5,5,0,0">
+                <TextBox Name="input" Grid.Column="0" Grid.Row="1" FontFamily="Consolas" FontSize="14" TextWrapping="Wrap" AcceptsReturn="True" />
+            </Border>
+        </Border>
+        <Label Grid.Column="0" Grid.Row="2" FontWeight="Bold" Content="Output:" />
+        <TextBox Name="output" Grid.Column="0" Grid.Row="3" IsReadOnly="True" FontFamily="Consolas" FontSize="14" TextWrapping="Wrap" AcceptsReturn="True" />
+    </Grid>
+</Window>
