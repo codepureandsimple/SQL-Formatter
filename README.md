@@ -4,7 +4,8 @@ I hate commas in front of columns names. I really hate it.
 ## Remove Columns and Modify Casing
 Will turn this:
 
-`SELECT [InvoiceID]
+```
+SELECT [InvoiceID]
       ,[CustomerID]
       ,[BillToCustomerID]
       ,[OrderID]
@@ -14,11 +15,13 @@ Will turn this:
       ,[SalespersonPersonID]
       ,[PackedByPersonID]
       ,[InvoiceDate]
-  FROM [Sales].[Invoices]`
+  FROM [Sales].[Invoices]
+  ```
   
-  ...into this...
-  
-`select [InvoiceID],
+ ...into this...
+
+```
+select [InvoiceID],
       [CustomerID],
       [BillToCustomerID],
       [OrderID],
@@ -28,7 +31,8 @@ Will turn this:
       [SalespersonPersonID],
       [PackedByPersonID],
       [InvoiceDate]
-  from [Sales].[Invoices]`  
+  from [Sales].[Invoices]
+```
 
 ## Future Plans
 
